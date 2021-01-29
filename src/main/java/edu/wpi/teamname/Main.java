@@ -4,6 +4,7 @@ public class Main {
 
   public static void main(String[] args) {
     App.launch(App.class, args);
-    System.out.println("Michael Clements");
+    TeamCoach Michael = new TeamCoach("Michael Clements");
+    Michael.speak();
   }
 }
